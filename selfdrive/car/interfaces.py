@@ -126,6 +126,9 @@ class CarInterfaceBase(ABC):
     if cs_out.seatbeltUnlatched:
       events.add(EventName.seatbeltNotLatched)
     if self.user_specific_feature == 11:
+      if cs_out.gearShifter != GearShifter.drive and (extra_gears is None or
+        cs_out.gearShifter not in extra_gears) and cs_out.cruiseState.enabled:
+        events.add(EventName.reverseGear)
       if cs_out.gearShifter == GearShifter.reverse:
         events.add(EventName.reverseGear)
     else:
