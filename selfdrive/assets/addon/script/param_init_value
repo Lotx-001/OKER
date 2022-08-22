@@ -59,7 +59,7 @@ LongLogDisplay:0
 OpkrBlindSpotDetect:1
 OpkrMaxAngleLimit:90
 OpkrSteerMethod:0
-OpkrMaxSteeringAngle:90
+OpkrMaxSteeringAngle:1000
 OpkrMaxDriverAngleWait:0.002
 OpkrMaxSteerAngleWait:0.001
 OpkrDriverAngleWait:0.001
