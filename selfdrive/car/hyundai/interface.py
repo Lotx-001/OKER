@@ -65,10 +65,10 @@ class CarInterface(CarInterfaceBase):
     # Most Hyundai car ports are community features for now
     ret.pcmCruise = not ret.radarOffCan
 
-    ret.steerActuatorDelay = 0.25  # Default delay
-    ret.steerRateCost = 0.35
-    ret.steerLimitTimer = 0.8
-    tire_stiffness_factor = 1.
+    ret.steerActuatorDelay = 0.1  # Default delay
+    ret.steerRateCost = 0.42
+    ret.steerLimitTimer = 1.6
+    tire_stiffness_factor = 1.6
 
     set_long_tune(ret.longitudinalTuning, LongTunes.OPKR)
 
