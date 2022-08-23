@@ -18,9 +18,9 @@ InnerLoopGain:35
 OuterLoopGain:20
 TimeConstant:14
 ActuatorEffectiveness:20
-Scale:1500
+Scale:1700
 LqrKi:15
-DcGain:270
+DcGain:285
 IgnoreZone:0
 PidKp:23
 PidKi:45
@@ -35,8 +35,8 @@ TorqueMaxLatAccel:28
 TorqueAngDeadZone:10
 CameraOffsetAdj:60
 PathOffsetAdj:0
-SteerRatioAdj:1550
-SteerRatioMaxAdj:1750
+SteerRatioAdj:1650
+SteerRatioMaxAdj:1700
 SteerActuatorDelayAdj:20
 SteerRateCostAdj:35
 SteerLimitTimerAdj:100
